@@ -169,7 +169,7 @@ class XmlReport implements JUnitReport {
     } else {
       long = message;
     }
-    if (message.isNotEmpty && problem.isFailure) stacktrace = '';
+    //if (message.isNotEmpty && problem.isFailure) stacktrace = '';
 
     final report = <String>[];
     final type = problem.isFailure ? 'Failure' : 'Error';
